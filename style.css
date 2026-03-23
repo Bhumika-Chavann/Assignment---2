@@ -7,6 +7,7 @@
 
 body {
     height: 100vh;
+    overflow: hidden; /* IMPORTANT: no scroll */
 }
 
 /* Navbar */
@@ -16,7 +17,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 5vw;
-    background-color: #ffffff;
+    background: #fff;
 }
 
 .logo {
@@ -28,7 +29,7 @@ body {
     list-style: none;
     display: flex;
     gap: 2vw;
-    color: #555;
+    color: #666;
 }
 
 .nav-links li {
@@ -36,10 +37,11 @@ body {
 }
 
 .user {
-    background-color: #e8f4ff;
+    background: #e8f4ff;
     padding: 8px 16px;
-    border-radius: 8px;
+    border-radius: 10px;
     font-size: 0.9rem;
+    color: #0d9cff;
 }
 
 /* Hero Section */
@@ -47,40 +49,43 @@ body {
     height: 90vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 0 5vw;
 }
 
+/* Left */
 .hero-left {
     flex: 1;
 }
 
 .hero-left h1 {
     font-size: 3rem;
+    color: #444;
     line-height: 1.2;
-    color: #333;
 }
 
 .hero-left span {
-    color: #0d9cff;
+    color: #1da1f2;
 }
 
 .hero-left p {
     margin: 20px 0;
     max-width: 500px;
-    color: #666;
+    color: #777;
     line-height: 1.6;
 }
 
 .hero-left button {
     padding: 14px 28px;
-    background-color: #0d9cff;
+    background: #1da1f2;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     font-size: 1rem;
     cursor: pointer;
 }
 
+/* Right */
 .hero-right {
     flex: 1;
     display: flex;
@@ -88,6 +93,6 @@ body {
 }
 
 .hero-right img {
-    width: 70%;
-    max-width: 400px;
+    width: 80%;
+    max-width: 420px;
 }
