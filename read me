@@ -1,0 +1,21 @@
+Laundry Service Hero Section
+
+Project Description
+This project is a simple frontend layout for a laundry service website. It includes a navbar and a hero section with a call-to-action button.
+
+How to Run
+1. Download the project
+2. Open index.html in browser
+
+What I Learned
+- How to use Flexbox for layout
+- How viewport units (vh, vw) work
+- How to align elements properly
+
+Challenges Faced
+- Initially struggled with spacing between text and image
+- Image alignment was not correct
+- Fixed it by adjusting flex properties and width
+
+Improvements
+- Added hover effects to navbar and button
